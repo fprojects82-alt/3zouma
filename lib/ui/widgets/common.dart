@@ -81,7 +81,8 @@ class RecipeCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          AspectRatio(aspectRatio: 4 / 3, child: DishPhoto(recipe: recipe, showName: false)),
+          // The photo takes whatever height the grid cell leaves after the text.
+          Expanded(child: SizedBox(width: double.infinity, child: DishPhoto(recipe: recipe, showName: false))),
           const SizedBox(height: 10),
           Row(
             children: [
@@ -97,7 +98,7 @@ class RecipeCard extends StatelessWidget {
             ],
           ),
           const SizedBox(height: 2),
-          Text(meta, style: const TextStyle(color: OzColors.inkSoft, fontSize: 13)),
+          Text(meta, maxLines: 1, overflow: TextOverflow.ellipsis, style: const TextStyle(color: OzColors.inkSoft, fontSize: 13)),
         ],
       ),
     );
