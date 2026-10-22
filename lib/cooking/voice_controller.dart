@@ -100,10 +100,10 @@ class VoiceController extends ChangeNotifier {
     try {
       await _speech.listen(
         onResult: _onResult,
-        localeId: _localeId,
-        listenFor: const Duration(seconds: 30),
-        pauseFor: const Duration(seconds: 4),
         listenOptions: SpeechListenOptions(
+          localeId: _localeId,
+          listenFor: const Duration(seconds: 30),
+          pauseFor: const Duration(seconds: 4),
           partialResults: true,
           cancelOnError: false,
           listenMode: ListenMode.confirmation,

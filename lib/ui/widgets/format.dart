@@ -10,10 +10,10 @@ String ingredientAmount(BuildContext context, Ingredient ing, {double factor = 1
   final whole = q.floor();
   final frac = q - whole;
   String number;
-  const fractions = {0.25: '¼', 0.5: '½', 0.75: '¾'};
+  const fractions = [(0.25, '¼'), (0.5, '½'), (0.75, '¾')];
   String? sym;
-  for (final e in fractions.entries) {
-    if ((frac - e.key).abs() < 0.04) sym = e.value;
+  for (final (value, symbol) in fractions) {
+    if ((frac - value).abs() < 0.04) sym = symbol;
   }
   if (frac < 0.04) {
     number = context.fmt(whole);
