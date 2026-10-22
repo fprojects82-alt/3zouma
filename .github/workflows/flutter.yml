@@ -24,10 +24,23 @@ jobs:
         run: flutter pub get
 
       - name: Analyze
-        run: flutter analyze
+        run: |
+          set +e
+          flutter analyze --format=machine 2> analyze.txt
+          code=$?
+          root="$PWD/"
+          awk -F'|' -v root="$root" 'NF>=8 {
+            sev=$1; file=$4; sub(root, "", file);
+            level = (sev=="ERROR") ? "error" : (sev=="WARNING") ? "warning" : "notice";
+            msg=$8; for (i=9;i<=NF;i++) msg=msg "|" $i;
+            printf "::%s file=%s,line=%s,col=%s::%s %s\n", level, file, $5, $6, $3, msg
+          }' analyze.txt
+          echo "Analyzer issues: $(grep -c '|' analyze.txt)"
+          exit $code
 
       - name: Test
-        run: flutter test
+        if: always()
+        run: flutter test --reporter github
 
   build-android:
     runs-on: ubuntu-latest
