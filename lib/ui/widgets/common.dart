@@ -134,10 +134,12 @@ class Panel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: padding,
-      decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(24)),
-      child: child,
+    // Material (not a coloured box) so list tiles inside keep their ink.
+    return Material(
+      color: color,
+      borderRadius: BorderRadius.circular(24),
+      clipBehavior: Clip.antiAlias,
+      child: Padding(padding: padding, child: child),
     );
   }
 }
