@@ -67,3 +67,37 @@ jobs:
           name: ozouma-debug-apk
           path: build/app/outputs/flutter-apk/app-debug.apk
           retention-days: 14
+
+  deploy-web:
+    runs-on: ubuntu-latest
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Generate platform folders
+        run: bash scripts/setup_platforms.sh
+
+      - name: Build web
+        run: |
+          flutter pub get
+          flutter build web --release --base-href /3zouma/
+          cp build/web/index.html build/web/404.html
+          touch build/web/.nojekyll
+
+      - name: Publish to gh-pages
+        run: |
+          cd build/web
+          git init -q -b gh-pages
+          git config user.name "Mayar Mohamed Issa"
+          git config user.email "Myar.issa2003@gmail.com"
+          git add -A
+          git commit -q -m "Publish web build"
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" gh-pages
