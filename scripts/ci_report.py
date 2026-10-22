@@ -26,6 +26,7 @@ def analyze(path, root):
 
 def test(path):
     names = {}
+    prints = {}
     failed = 0
     for line in open(path, encoding='utf-8', errors='replace'):
         line = line.strip()
@@ -39,9 +40,12 @@ def test(path):
         if kind == 'testStart':
             t = event['test']
             names[t['id']] = (t.get('name', ''), t.get('url') or t.get('root_url') or '')
+        elif kind == 'print':
+            prints.setdefault(event.get('testID'), []).append(event.get('message', ''))
         elif kind == 'error':
             name, url = names.get(event.get('testID'), ('?', ''))
-            body = f"{name}\n{event.get('error', '')}\n{event.get('stackTrace', '')[:1500]}"
+            logged = '\n'.join(prints.get(event.get('testID'), []))[:3000]
+            body = f"{name}\n{logged}\n{event.get('error', '')}\n{event.get('stackTrace', '')[:800]}"
             print(f'::error title={esc(name)[:120]}::{esc(body)[:4000]}')
             failed += 1
     print(f'Test errors: {failed}')
