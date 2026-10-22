@@ -1,0 +1,174 @@
+[
+  {
+    "id": "koshari",
+    "title": {"en": "Koshari", "ar": "كشري"},
+    "minutes": 60,
+    "servings": 4,
+    "tags": ["egyptian", "vegetarian"],
+    "color": "#A8835E",
+    "ingredients": [
+      {"id": "rice", "name": {"en": "Rice", "ar": "رز"}, "qty": 1, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "brown_lentils", "name": {"en": "Brown lentils", "ar": "عدس بجبة"}, "qty": 1, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "macaroni", "name": {"en": "Macaroni", "ar": "مكرونة"}, "qty": 250, "unit": {"en": "g", "ar": "جم"}},
+      {"id": "vermicelli", "name": {"en": "Vermicelli", "ar": "شعرية"}, "qty": 0.25, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "chickpeas", "name": {"en": "Cooked chickpeas", "ar": "حمص مسلوق"}, "qty": 1, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "onion", "name": {"en": "Onions, thinly sliced", "ar": "بصل مقطع شرايح رفيعة"}, "qty": 3},
+      {"id": "garlic", "name": {"en": "Garlic cloves, crushed", "ar": "فصوص توم مدقوقة"}, "qty": 4},
+      {"id": "tomato", "name": {"en": "Tomatoes, crushed", "ar": "طماطم مهروسة"}, "qty": 4},
+      {"id": "tomato_paste", "name": {"en": "Tomato paste", "ar": "صلصة"}, "qty": 2, "unit": {"en": "tbsp", "ar": "معلقة كبيرة"}},
+      {"id": "vinegar", "name": {"en": "Vinegar", "ar": "خل"}, "qty": 3, "unit": {"en": "tbsp", "ar": "معلقة كبيرة"}},
+      {"id": "cumin", "name": {"en": "Cumin", "ar": "كمون"}, "qty": 2, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}},
+      {"id": "chili", "name": {"en": "Chili flakes", "ar": "شطة"}, "qty": 1, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}},
+      {"id": "oil", "name": {"en": "Oil", "ar": "زيت"}, "qty": 0.5, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "salt", "name": {"en": "Salt", "ar": "ملح"}}
+    ],
+    "steps": [
+      {"text": {"en": "Rinse the brown lentils, cover them with water and boil for 20 minutes until just tender. Drain.", "ar": "اغسلي العدس، غطيه بالمية وسيبيه يغلي ٢٠ دقيقة لحد ما يستوي، وصفيه."}, "timerLabel": {"en": "Lentils", "ar": "العدس"}},
+      {"text": {"en": "Boil the macaroni in salted water for 10 minutes, then drain.", "ar": "اسلقي المكرونة في مية بملح ١٠ دقايق وصفيها."}, "timerLabel": {"en": "Macaroni", "ar": "المكرونة"}},
+      {"text": {"en": "Fry the sliced onions in the oil until deep golden, about 15 minutes. Lift them out and keep the oil.", "ar": "حمري البصل في الزيت لحد ما يبقى دهبي غامق، حوالي ١٥ دقيقة. شيليه وسيبي الزيت."}, "timerLabel": {"en": "Onions", "ar": "البصل"}},
+      {"text": {"en": "In 2 tablespoons of the onion oil, fry the vermicelli until golden, then add the rice and stir.", "ar": "في معلقتين من زيت البصل، حمري الشعرية لحد ما تدهب، وبعدين ضيفي الرز وقلبي."}},
+      {"text": {"en": "Add the lentils, half the cumin, salt and 2 cups of water. Cover and cook on low heat for 20 minutes.", "ar": "ضيفي العدس ونص الكمون والملح وكوبايتين مية. غطي الحلة وسيبيها على نار هادية ٢٠ دقيقة."}, "timerLabel": {"en": "Rice", "ar": "الرز"}},
+      {"text": {"en": "For the sauce, fry the garlic in a little oil, then add the tomato paste, crushed tomatoes, vinegar, the rest of the cumin and the chili. Simmer for 15 minutes.", "ar": "للصلصة: شوحي التوم في شوية زيت، وضيفي الصلصة والطماطم المهروسة والخل وباقي الكمون والشطة، وسيبيها تسبك ١٥ دقيقة."}, "timerLabel": {"en": "Sauce", "ar": "الصلصة"}},
+      {"text": {"en": "Layer the rice and lentils, macaroni and chickpeas, then top with the sauce and crispy onions.", "ar": "رصي الرز بالعدس والمكرونة والحمص، وعلى الوش الصلصة والبصل المقرمش."}}
+    ]
+  },
+  {
+    "id": "molokhia",
+    "title": {"en": "Molokhia with chicken", "ar": "ملوخية بالفراخ"},
+    "minutes": 75,
+    "servings": 4,
+    "tags": ["egyptian"],
+    "color": "#6E5A48",
+    "ingredients": [
+      {"id": "chicken", "name": {"en": "Whole chicken, cut in four", "ar": "فرخة متقطعة أربع حتت"}, "qty": 1},
+      {"id": "molokhia", "name": {"en": "Frozen molokhia", "ar": "ملوخية مجمدة"}, "qty": 400, "unit": {"en": "g", "ar": "جم"}},
+      {"id": "onion", "name": {"en": "Onion", "ar": "بصلة"}, "qty": 1},
+      {"id": "garlic", "name": {"en": "Garlic cloves, crushed", "ar": "فصوص توم مدقوقة"}, "qty": 6},
+      {"id": "ghee", "name": {"en": "Ghee", "ar": "سمنة"}, "qty": 2, "unit": {"en": "tbsp", "ar": "معلقة كبيرة"}},
+      {"id": "coriander", "name": {"en": "Ground coriander", "ar": "كزبرة ناشفة"}, "qty": 1, "unit": {"en": "tbsp", "ar": "معلقة كبيرة"}},
+      {"id": "cardamom", "name": {"en": "Cardamom pods", "ar": "حبهان"}, "qty": 3},
+      {"id": "bay_leaf", "name": {"en": "Bay leaves", "ar": "ورق لورا"}, "qty": 2},
+      {"id": "salt", "name": {"en": "Salt", "ar": "ملح"}},
+      {"id": "rice", "name": {"en": "Rice, to serve", "ar": "رز للتقديم"}, "qty": 2, "unit": {"en": "cups", "ar": "كوباية"}}
+    ],
+    "steps": [
+      {"text": {"en": "Put the chicken in a pot with water, the onion, cardamom, bay leaves and salt. When it boils, skim the foam, then simmer for 45 minutes.", "ar": "حطي الفراخ في حلة بمية والبصلة والحبهان وورق اللورا والملح. لما تغلي شيلي الريم وسيبيها على نار هادية ٤٥ دقيقة."}, "timerLabel": {"en": "Chicken stock", "ar": "شوربة الفراخ"}},
+      {"text": {"en": "Take out the chicken and strain the stock. Keep 4 cups of stock hot in a pot.", "ar": "طلعي الفراخ وصفي الشوربة. سيبي ٤ كوبايات شوربة سخنة في حلة."}},
+      {"text": {"en": "Add the frozen molokhia to the hot stock and stir until it melts. Do not let it boil hard.", "ar": "ضيفي الملوخية المجمدة للشوربة السخنة وقلبي لحد ما تسيح. متخليهاش تغلي جامد."}},
+      {"text": {"en": "Simmer the molokhia, uncovered, for 10 minutes.", "ar": "سيبي الملوخية على نار هادية من غير غطا ١٠ دقايق."}, "timerLabel": {"en": "Molokhia", "ar": "الملوخية"}},
+      {"text": {"en": "In a small pan, fry the crushed garlic in the ghee until golden, then add the ground coriander and stir once.", "ar": "في طاسة صغيرة، حمري التوم المدقوق في السمنة لحد ما يدهب، وضيفي الكزبرة الناشفة وقلبي مرة."}},
+      {"text": {"en": "Pour the garlic over the molokhia, stir and take it off the heat.", "ar": "اطشي التوم على الملوخية وقلبي وشيليها من على النار."}},
+      {"text": {"en": "Roast the chicken in the oven at 200°C for 20 minutes until golden, then serve with rice.", "ar": "حمري الفراخ في الفرن على ٢٠٠ درجة ٢٠ دقيقة لحد ما تدهب، وقدميها مع الرز."}, "timerLabel": {"en": "Oven", "ar": "الفرن"}}
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "title": {"en": "Shakshuka", "ar": "شكشوكة"},
+    "minutes": 25,
+    "servings": 2,
+    "tags": ["egyptian", "quick", "vegetarian"],
+    "color": "#B5553A",
+    "ingredients": [
+      {"id": "eggs", "name": {"en": "Eggs", "ar": "بيض"}, "qty": 4},
+      {"id": "tomato", "name": {"en": "Tomatoes, chopped", "ar": "طماطم مقطعة"}, "qty": 4},
+      {"id": "onion", "name": {"en": "Onion, chopped", "ar": "بصلة مقطعة"}, "qty": 1},
+      {"id": "green_pepper", "name": {"en": "Green pepper, chopped", "ar": "فلفلة خضرا مقطعة"}, "qty": 1},
+      {"id": "garlic", "name": {"en": "Garlic cloves", "ar": "فصوص توم"}, "qty": 2},
+      {"id": "feta", "name": {"en": "Feta cheese", "ar": "جبنة فيتا"}, "qty": 50, "unit": {"en": "g", "ar": "جم"}},
+      {"id": "cumin", "name": {"en": "Cumin", "ar": "كمون"}, "qty": 1, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}},
+      {"id": "chili", "name": {"en": "Chili", "ar": "شطة"}, "qty": 0.5, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}},
+      {"id": "oil", "name": {"en": "Oil", "ar": "زيت"}, "qty": 2, "unit": {"en": "tbsp", "ar": "معلقة كبيرة"}},
+      {"id": "bread", "name": {"en": "Baladi bread, to serve", "ar": "عيش بلدي للتقديم"}, "qty": 2},
+      {"id": "salt", "name": {"en": "Salt", "ar": "ملح"}}
+    ],
+    "steps": [
+      {"text": {"en": "Heat the oil and soften the onion and green pepper for 5 minutes.", "ar": "سخني الزيت وشوحي البصل والفلفل الأخضر ٥ دقايق لحد ما يدبلوا."}, "timerLabel": {"en": "Onion", "ar": "البصل"}},
+      {"text": {"en": "Add the garlic, cumin and chili, then the chopped tomatoes and a pinch of salt.", "ar": "ضيفي التوم والكمون والشطة، وبعدين الطماطم المقطعة ورشة ملح."}},
+      {"text": {"en": "Simmer until the tomatoes thicken, about 8 minutes.", "ar": "سيبيها تسبك لحد ما الطماطم تتقل، حوالي ٨ دقايق."}, "timerLabel": {"en": "Sauce", "ar": "الصلصة"}},
+      {"text": {"en": "Make four wells in the sauce and crack an egg into each one.", "ar": "اعملي ٤ حفر في الصلصة واكسري بيضة في كل حفرة."}},
+      {"text": {"en": "Cover and cook on low heat for 5 minutes, until the whites set.", "ar": "غطيها وسيبيها على نار هادية ٥ دقايق لحد ما البياض يستوي."}, "timerLabel": {"en": "Eggs", "ar": "البيض"}},
+      {"text": {"en": "Crumble the feta on top and serve hot with baladi bread.", "ar": "فتفتي الجبنة الفيتا على الوش وقدميها سخنة مع العيش البلدي."}}
+    ]
+  },
+  {
+    "id": "lentil_soup",
+    "title": {"en": "Lentil soup", "ar": "شوربة عدس"},
+    "minutes": 40,
+    "servings": 4,
+    "tags": ["egyptian", "vegetarian", "ramadan"],
+    "color": "#C99A3B",
+    "ingredients": [
+      {"id": "yellow_lentils", "name": {"en": "Yellow lentils", "ar": "عدس أصفر"}, "qty": 1.5, "unit": {"en": "cups", "ar": "كوباية"}},
+      {"id": "onion", "name": {"en": "Onion, quartered", "ar": "بصلة متقطعة أربعة"}, "qty": 1},
+      {"id": "carrot", "name": {"en": "Carrot, chopped", "ar": "جزرة مقطعة"}, "qty": 1},
+      {"id": "tomato", "name": {"en": "Tomato", "ar": "طماطماية"}, "qty": 1},
+      {"id": "potato", "name": {"en": "Small potato", "ar": "بطاطساية صغيرة"}, "qty": 1},
+      {"id": "cumin", "name": {"en": "Cumin", "ar": "كمون"}, "qty": 1, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}},
+      {"id": "lemon", "name": {"en": "Lemon, to serve", "ar": "ليمون للتقديم"}, "qty": 1},
+      {"id": "bread", "name": {"en": "Toasted bread, to serve", "ar": "عيش محمص للتقديم"}, "qty": 2},
+      {"id": "salt", "name": {"en": "Salt", "ar": "ملح"}},
+      {"id": "pepper", "name": {"en": "Black pepper", "ar": "فلفل أسود"}}
+    ],
+    "steps": [
+      {"text": {"en": "Rinse the yellow lentils well.", "ar": "اغسلي العدس الأصفر كويس."}},
+      {"text": {"en": "Put the lentils, onion, carrot, tomato and potato in a pot with 6 cups of water.", "ar": "حطي العدس والبصل والجزر والطماطم والبطاطس في حلة بـ ٦ كوبايات مية."}},
+      {"text": {"en": "Bring to a boil, then cover and simmer for 25 minutes until everything is soft.", "ar": "لما تغلي غطيها وسيبيها على نار هادية ٢٥ دقيقة لحد ما كله يستوي."}, "timerLabel": {"en": "Soup", "ar": "الشوربة"}},
+      {"text": {"en": "Blend until smooth, then add the cumin, salt and pepper.", "ar": "اضربيها في الخلاط لحد ما تنعم، وضيفي الكمون والملح والفلفل."}},
+      {"text": {"en": "Simmer for another 5 minutes, stirring so it does not stick.", "ar": "سيبيها تغلي ٥ دقايق كمان وقلبي عشان متلزقش."}, "timerLabel": {"en": "Soup", "ar": "الشوربة"}},
+      {"text": {"en": "Serve with lemon and toasted bread.", "ar": "قدميها مع الليمون والعيش المحمص."}}
+    ]
+  },
+  {
+    "id": "basbousa",
+    "title": {"en": "Basbousa", "ar": "بسبوسة"},
+    "minutes": 70,
+    "servings": 8,
+    "tags": ["egyptian", "dessert", "ramadan"],
+    "color": "#C9A26B",
+    "ingredients": [
+      {"id": "semolina", "name": {"en": "Coarse semolina", "ar": "سميد خشن"}, "qty": 2, "unit": {"en": "cups", "ar": "كوباية"}},
+      {"id": "coconut", "name": {"en": "Desiccated coconut", "ar": "جوز هند"}, "qty": 0.5, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "sugar", "name": {"en": "Sugar, for the batter", "ar": "سكر للخليط"}, "qty": 0.5, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "baking_powder", "name": {"en": "Baking powder", "ar": "بيكنج باودر"}, "qty": 1, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}},
+      {"id": "butter", "name": {"en": "Butter, melted", "ar": "زبدة سايحة"}, "qty": 0.5, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "yogurt", "name": {"en": "Yogurt", "ar": "زبادي"}, "qty": 1, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "almonds", "name": {"en": "Almonds", "ar": "لوز"}, "qty": 20},
+      {"id": "sugar", "name": {"en": "Sugar, for the syrup", "ar": "سكر للشربات"}, "qty": 1.5, "unit": {"en": "cups", "ar": "كوباية"}},
+      {"id": "water", "name": {"en": "Water, for the syrup", "ar": "مية للشربات"}, "qty": 1, "unit": {"en": "cup", "ar": "كوباية"}},
+      {"id": "lemon", "name": {"en": "Lemon juice", "ar": "عصير ليمون"}, "qty": 1, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}}
+    ],
+    "steps": [
+      {"text": {"en": "Make the syrup: boil the sugar and water for 10 minutes, add the lemon juice and let it cool.", "ar": "الشربات: اغلي السكر والمية ١٠ دقايق، ضيفي عصير الليمون وسيبيه يبرد."}, "timerLabel": {"en": "Syrup", "ar": "الشربات"}},
+      {"text": {"en": "Heat the oven to 180°C and butter a round tray.", "ar": "سخني الفرن على ١٨٠ درجة وادهني صينية مدورة بالزبدة."}},
+      {"text": {"en": "Mix the semolina, coconut, sugar and baking powder.", "ar": "اخلطي السميد وجوز الهند والسكر والبيكنج باودر."}},
+      {"text": {"en": "Add the melted butter and yogurt, and mix just until combined.", "ar": "ضيفي الزبدة السايحة والزبادي وقلبي بس لحد ما يتخلطوا."}},
+      {"text": {"en": "Spread it in the tray, mark diamonds and press an almond into each one.", "ar": "افرديها في الصينية، علّمي عليها معين وحطي لوزة في كل حتة."}},
+      {"text": {"en": "Bake for 30 minutes until golden on top.", "ar": "خبزيها نص ساعة لحد ما وشها يدهب."}, "timerLabel": {"en": "Oven", "ar": "الفرن"}},
+      {"text": {"en": "Pour the cold syrup over the hot basbousa and let it soak for 15 minutes before cutting.", "ar": "صبي الشربات البارد على البسبوسة السخنة وسيبيها تشربه ربع ساعة قبل التقطيع."}, "timerLabel": {"en": "Soaking", "ar": "التشريب"}}
+    ]
+  },
+  {
+    "id": "ful",
+    "title": {"en": "Ful medames", "ar": "فول مدمس"},
+    "minutes": 15,
+    "servings": 2,
+    "tags": ["egyptian", "quick", "vegetarian", "ramadan"],
+    "color": "#8A6A4F",
+    "ingredients": [
+      {"id": "fava_beans", "name": {"en": "Cooked fava beans", "ar": "فول مدمس"}, "qty": 400, "unit": {"en": "g", "ar": "جم"}},
+      {"id": "garlic", "name": {"en": "Garlic clove, crushed", "ar": "فص توم مدقوق"}, "qty": 1},
+      {"id": "lemon", "name": {"en": "Lemon juice", "ar": "عصير ليمون"}, "qty": 1, "unit": {"en": "tbsp", "ar": "معلقة كبيرة"}},
+      {"id": "cumin", "name": {"en": "Cumin", "ar": "كمون"}, "qty": 0.5, "unit": {"en": "tsp", "ar": "معلقة صغيرة"}},
+      {"id": "tomato", "name": {"en": "Tomato, chopped", "ar": "طماطماية مقطعة"}, "qty": 1},
+      {"id": "oil", "name": {"en": "Oil", "ar": "زيت"}, "qty": 2, "unit": {"en": "tbsp", "ar": "معلقة كبيرة"}},
+      {"id": "bread", "name": {"en": "Baladi bread", "ar": "عيش بلدي"}, "qty": 2},
+      {"id": "salt", "name": {"en": "Salt", "ar": "ملح"}}
+    ],
+    "steps": [
+      {"text": {"en": "Warm the fava beans with a little of their liquid for 5 minutes.", "ar": "سخني الفول بشوية من ميته ٥ دقايق."}, "timerLabel": {"en": "Ful", "ar": "الفول"}},
+      {"text": {"en": "Mash them lightly with a fork.", "ar": "اهرسيه هرس خفيف بالشوكة."}},
+      {"text": {"en": "Add the cumin, salt, lemon juice and crushed garlic.", "ar": "ضيفي الكمون والملح وعصير الليمون والتوم المدقوق."}},
+      {"text": {"en": "Drizzle with oil, top with the chopped tomato and serve with baladi bread.", "ar": "حطي عليه زيت والطماطم المقطعة وقدميه مع العيش البلدي."}}
+    ]
+  }
+]
